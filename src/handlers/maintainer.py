@@ -1,8 +1,8 @@
 from vkbottle.bot import Message
 from vkbottle.framework.labeler import BotLabeler
 
-from src.rules import MaintainerMessageRule
-from src.utils import send_message_to_customer
+from rules import MaintainerMessageRule
+from utils import send_message_to_customer
 
 maintainer_labeler = BotLabeler()
 

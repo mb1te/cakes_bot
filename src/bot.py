@@ -1,7 +1,7 @@
 from vkbottle import Bot
 
 from config import api, labeler, state_dispenser
-from src.handlers import customer_labeler, maintainer_labeler
+from handlers import customer_labeler, maintainer_labeler
 
 labeler.load(customer_labeler)
 labeler.load(maintainer_labeler)

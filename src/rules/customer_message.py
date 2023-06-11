@@ -1,7 +1,7 @@
 from vkbottle import ABCRule
 from vkbottle.bot import Message
 
-from src.config import settings
+from config import settings
 
 
 class CustomerMessageRule(ABCRule[Message]):

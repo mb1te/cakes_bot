@@ -2,7 +2,7 @@ from pydantic import BaseSettings
 from vkbottle import API, BuiltinStateDispenser
 from vkbottle.bot import BotLabeler
 
-from src.users import UserID
+from users import UserID
 
 
 class Settings(BaseSettings):

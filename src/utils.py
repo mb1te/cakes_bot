@@ -2,7 +2,7 @@ import json
 
 from vkbottle import API
 
-from src.config import settings
+from config import settings
 
 api = API(token=settings.VK_API_TOKEN)
 
@@ -24,5 +24,5 @@ async def send_message_to_customer(response: str, msg_id: int, peer_id: int):
                 "is_reply": True,
             }
         ),
-        random_id=1,
+        random_id=0,
     )
